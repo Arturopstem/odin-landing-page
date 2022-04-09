@@ -39,11 +39,54 @@ a {
     color: #e5e7eb;
 }
 
-footer{
+footer {
     background-color: #1f2937;
     color: #e5e7eb;
     height: 7.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5vh 10vw;
+}
+
+.hero .main {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 16px;
+}
+
+.hero .main .text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero .secondary {
+    font-weight: 18px;
+    color: #e5e7eb;
+}
+
+.hero picture {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #777;
+    color: #e5e7eb;
+}
+
+.hero button {
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
 }
