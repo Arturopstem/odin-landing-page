@@ -148,3 +148,25 @@ footer {
     text-align: end;
     margin-right: 24px;
 }
+
+.sign-up {
+    box-sizing: border-box;
+    margin: 64px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 32px 72px;
+    border-radius: 8px;
+}
+
+.sign-up button{
+    align-self: center;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 24px;
+}
